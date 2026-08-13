@@ -1,0 +1,52 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter and Colab temporary files
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw and processed data
+data/raw/
+data/processed/
+*.parquet
+*.feather
+
+# Trained models and preprocessing objects
+*.keras
+*.h5
+*.joblib
+*.pkl
+xgboost_model.json
+
+# Hyperparameter-tuning outputs
+hyperband_search/
+**/hyperband_search/
+
+# Local model-output folders
+Model Outputs/
+model_outputs/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Keep small, publication-ready result tables if explicitly added
+!results/*.csv
+!results/*.json
+
